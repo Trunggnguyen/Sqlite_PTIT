@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nhanvien.AddNVActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/edit1"
+        android:hint="Ten Nv"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/edit2"
+        android:hint="Que Quan"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:hint="Nam Sinh" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/spinner"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/btn1"
+        android:text="Them NV"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+/>
+</LinearLayout>
